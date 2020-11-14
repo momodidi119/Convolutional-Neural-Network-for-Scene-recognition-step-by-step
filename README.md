@@ -31,5 +31,6 @@ Evaluation:
   
   
 #### Reference
-https://en.wikipedia.org/wiki/Convolutional_neural_network
-Krizhevsky A, Sutskever I, Hinton G E. Imagenet classification with deep convolutional neural networks[J]. Communications of the ACM, 2017, 60(6): 84-90.
+[1] https://en.wikipedia.org/wiki/Convolutional_neural_network
+
+[2] Krizhevsky A, Sutskever I, Hinton G E. Imagenet classification with deep convolutional neural networks[J]. Communications of the ACM, 2017, 60(6): 84-90.
