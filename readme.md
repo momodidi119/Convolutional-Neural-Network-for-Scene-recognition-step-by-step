@@ -14,19 +14,42 @@ A convolutional neural network consists of an input and an output layer, as well
 
 Architecture of CNN
 ---------
-In Regular Neural Nets, neural networks receive an input
+In Regular Neural Nets, neural network mostly receive an input image having small size.
+For example, images are only of size 32x32x3 (32 wide, 32 high, 3 color channels) in regular neural networks. Full image cannot work well in regular  neural network.
+So it is very important to use CNN to learning full images.
+It is flexible to add many layers in the CNN. 
+Usually, we can the following layers to build CNN:
 
-Images input:
-images are only of size 32x32x3 (32 wide, 32 high, 3 color channels) in regular neural networks. Full image cannot work well in full image
-
-Three main layers used to build CNN:
-Convolutional layer: convolutional filter
-pooling layer: maxpooling
-fully-connected layer: forward and backward functions
-(Batch Normalization and Dropout layers are used to avoid overfitting.)
+(1) Convolutional layer: convolutional filter
+(2) Activation layer: ReLu
+(3) pooling layer: maxpooling
+(4) Flatten layer
+(5) Fully-connected layer
+Convolutional layer, Activation layer,and pooling layer can be used more than once to extract more details from the page.
+Besides, we can also use  soft-max layer and Dropout layer to avoid overfitting.
 
 Process:
-Data input -> convolutional layer -> normalization layer -> max pooling layer -> fully connected layer -> output
+Data input ->( convolutional layer -> normalization layer -> max pooling layer)*n -> flatten layer -> fully connected layer -> output
 
 ### Key Points
 • Build up a convolutional neural network consisting of Convolutional Networks, Batch Normalization, Max Pooling, and Backprop part using Python.
+• Implement different scene recognition using convolutional neural network.
+• Evaluate the testing results and optimize the framework of convolutional neural network.
+
+Requirements
+-----------
+Python 3
+&& Numpy
+&& OpenCV
+
+Contents
+---------
+Basic architectures:
+Results:
+Evaluation:
+  
+  
+  
+#### Reference
+https://en.wikipedia.org/wiki/Convolutional_neural_network
+Krizhevsky A, Sutskever I, Hinton G E. Imagenet classification with deep convolutional neural networks[J]. Communications of the ACM, 2017, 60(6): 84-90.
