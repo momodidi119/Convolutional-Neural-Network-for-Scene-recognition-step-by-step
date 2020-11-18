@@ -44,9 +44,9 @@ Python 3
 
 Contents
 ---------
-Basic architectures:
-Results:
-Evaluation:
+## Basic architectures:
+## Results:
+## Evaluation:
   
   
   
